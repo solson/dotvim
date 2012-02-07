@@ -1,3 +1,15 @@
 [submodule "bundle/vim-pathogen"]
 	path = bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen.git
+[submodule "bundle/vim-align"]
+	path = bundle/vim-align
+	url = https://github.com/tsaleh/vim-align.git
+[submodule "bundle/vim-git"]
+	path = bundle/vim-git
+	url = https://github.com/tpope/vim-git
+[submodule "bundle/gist-vim"]
+	path = bundle/gist-vim
+	url = https://github.com/mattn/gist-vim.git
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
