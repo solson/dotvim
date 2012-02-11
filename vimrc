@@ -40,6 +40,9 @@ set expandtab
 set shiftwidth=4
 set tabstop=4
 
+" Don't indent the bodies of namespaces in C++
+set cinoptions=N-s
+
 " Visible trailing whitespace
 set list
 set listchars=tab:\ \ ,trail:·
