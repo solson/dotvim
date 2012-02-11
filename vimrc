@@ -41,7 +41,9 @@ set shiftwidth=4
 set tabstop=4
 
 " Don't indent the bodies of namespaces in C++
-set cinoptions=N-s
+set cinoptions+=N-s
+" Don't indent case statements farther than the switch.
+set cinoptions+=:0
 
 " Visible trailing whitespace
 set list
