@@ -66,6 +66,9 @@ au BufRead,BufNewFile *.ijs,*.ijt,*.ijp,*.ijx set filetype=j
 au BufRead,BufNewFile *.ll set filetype=llvm
 au BufRead,BufNewFile *.fth set filetype=forth
 
+" Enter insert mode automatically for `git commit`
+au FileType gitcommit startinsert
+
 " Smarter %
 runtime macros/matchit.vim
 
