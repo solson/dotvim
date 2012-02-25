@@ -44,6 +44,8 @@ set tabstop=4
 set cinoptions+=N-s
 " Don't indent case statements farther than the switch.
 set cinoptions+=:0
+" Don't indent scope declarations (public, private, protected).
+set cinoptions+=g0
 
 " Visible trailing whitespace
 set list
