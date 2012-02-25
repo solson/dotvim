@@ -1,4 +1,5 @@
 set guifont=Monospace\ 9
+colorscheme Tomorrow-Night-Bright
 
 " Disable tearoff menu items, toolbar, menus
 set guioptions-=m

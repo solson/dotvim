@@ -16,3 +16,6 @@
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = https://github.com/tpope/vim-markdown.git
+[submodule "bundle/Vim-Tomorrow-Theme"]
+	path = bundle/Vim-Tomorrow-Theme
+	url = git://github.com/programble/Vim-Tomorrow-Theme.git
