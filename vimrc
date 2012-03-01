@@ -31,6 +31,7 @@ set smarttab
 set hlsearch
 set textwidth=78
 set formatoptions+=cqtrol
+set shiftround
 
 syntax on
 filetype plugin indent on
