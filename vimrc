@@ -98,7 +98,7 @@ nmap <leader>D "+D
 map Q gq
 
 " Make Y an alias for y$ instead of yy
-map Y y$
+nmap Y y$
 
 " Toggle relative/absolute numbers
 function! NumberToggle()
