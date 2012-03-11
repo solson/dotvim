@@ -97,6 +97,9 @@ nmap <leader>D "+D
 " Use Q for formatting, not Ex mode
 map Q gq
 
+" Make Y an alias for y$ instead of yy
+map Y y$
+
 " Toggle relative/absolute numbers
 function! NumberToggle()
   if(&relativenumber == 1)
