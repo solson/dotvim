@@ -19,3 +19,6 @@
 [submodule "bundle/Vim-Tomorrow-Theme"]
 	path = bundle/Vim-Tomorrow-Theme
 	url = git://github.com/programble/Vim-Tomorrow-Theme.git
+[submodule "bundle/vim-qml"]
+	path = bundle/vim-qml
+	url = https://github.com/peterhoeg/vim-qml.git
