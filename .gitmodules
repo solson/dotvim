@@ -40,3 +40,6 @@
 [submodule "bundle/snipmate-snippets"]
 	path = bundle/snipmate-snippets
 	url = https://github.com/tsion/snipmate-snippets.git
+[submodule "bundle/moonscript-vim"]
+	path = bundle/moonscript-vim
+	url = https://github.com/leafo/moonscript-vim.git
