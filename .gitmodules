@@ -7,9 +7,6 @@
 [submodule "bundle/vim-git"]
 	path = bundle/vim-git
 	url = https://github.com/tpope/vim-git
-[submodule "bundle/gist-vim"]
-	path = bundle/gist-vim
-	url = https://github.com/mattn/gist-vim.git
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
@@ -46,9 +43,6 @@
 [submodule "bundle/ooc-vim"]
 	path = bundle/ooc-vim
 	url = https://github.com/programble/ooc.vim.git
-[submodule "bundle/refheap"]
-	path = bundle/refheap
-	url = https://github.com/Raynes/refheap.vim.git
 [submodule "bundle/VimClojure"]
 	path = bundle/VimClojure
 	url = https://github.com/vim-scripts/VimClojure.git

@@ -1,4 +1,4 @@
-set guifont=Inconsolata\ 11
+set guifont=Consolas:h10:cANSI
 colorscheme Tomorrow-Night
 
 " Disable tearoff menu items, toolbar, menus, scrollbars

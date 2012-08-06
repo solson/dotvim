@@ -49,11 +49,11 @@ set cinoptions+=:0
 set cinoptions+=g0
 
 " Visible trailing whitespace
-set list
-set listchars=tab:\ \ ,trail:·
+" set list
+" set listchars=tab:\ \ ,trail:·
 " Hide trailing whitespace in insert mode
-autocmd InsertEnter * setlocal nolist
-autocmd InsertLeave * setlocal list
+" autocmd InsertEnter * setlocal nolist
+" autocmd InsertLeave * setlocal list
 
 " Enable mouse in terminals
 if has('mouse')
