@@ -22,7 +22,7 @@ set incsearch
 set ignorecase
 set smartcase
 set autoindent
-"set smartindent " TODO: What does this do?
+set smartindent
 set number
 set title
 set shortmess=atI
