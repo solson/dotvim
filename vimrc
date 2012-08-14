@@ -38,8 +38,8 @@ filetype plugin indent on
 
 " Default to 4-space indents, 4-character tabs
 set expandtab
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
 
 " Don't indent the bodies of namespaces in C++
 set cinoptions+=N-s
@@ -61,7 +61,7 @@ if has('mouse')
 endif
 
 " Indentation exceptions
-autocmd FileType ruby setlocal sw=2
+autocmd FileType c,cpp,clay,d,java,ooc,rust setlocal sw=4 ts=4
 
 " Filetypes
 au BufRead,BufNewFile *.clay set filetype=clay
