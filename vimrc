@@ -68,6 +68,7 @@ au BufRead,BufNewFile *.clay set filetype=clay
 au BufRead,BufNewFile *.ijs,*.ijt,*.ijp,*.ijx set filetype=j
 au BufRead,BufNewFile *.ll set filetype=llvm
 au BufRead,BufNewFile *.fth set filetype=forth
+au BufRead,BufNewFile *.apr set filetype=clojure
 
 " Enter insert mode automatically for `git commit`
 au FileType gitcommit startinsert
