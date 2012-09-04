@@ -118,3 +118,12 @@ nnoremap <silent> <C-n> :call NumberToggle()<cr>
 " set wildmode=list:longest (curtis')
 " set wildignore=*.o,*.d,*~
 
+" Because gnome-terminal is too stupid to set TERM=xterm-256color
+if $COLORTERM == 'gnome-terminal'
+  set t_Co=256
+endif
+
+" Use a nice colorscheme if 256 colors are available
+if &t_Co == 256
+  colorscheme Tomorrow-Night
+endif
