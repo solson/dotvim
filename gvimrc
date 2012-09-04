@@ -1,4 +1,4 @@
-set guifont=Inconsolata\ 11
+set guifont=DejaVu\ Sans\ Mono\ 9
 colorscheme Tomorrow-Night
 
 " Disable tearoff menu items, toolbar, menus, scrollbars
@@ -15,4 +15,4 @@ set browsedir=buffer
 set visualbell t_vb=
 
 set columns=85
-set lines=40
+set lines=46
