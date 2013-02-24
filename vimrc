@@ -62,6 +62,7 @@ endif
 
 " Indentation exceptions
 autocmd FileType c,cpp,clay,d,java,ooc,rust setlocal sw=4 ts=4
+autocmd FileType asm setlocal sw=8 ts=8 nosmartindent
 
 " Filetypes
 au BufRead,BufNewFile *.clay set filetype=clay
