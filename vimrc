@@ -1,6 +1,11 @@
 " Use Vim settings, rather than Vi settings.
 set nocompatible
 
+" Load the sekrit stuff (API tokens, passwords, what have you)
+if filereadable('~/.vim/secrets.vim')
+  source ~/.vim/secrets.vim
+endif
+
 " Load pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
