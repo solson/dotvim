@@ -58,3 +58,6 @@
 [submodule "bundle/vim-racket"]
 	path = bundle/vim-racket
 	url = https://github.com/wlangstroth/vim-racket.git
+[submodule "bundle/rust-vim"]
+	path = bundle/rust-vim
+	url = https://github.com/wting/rust.vim.git
