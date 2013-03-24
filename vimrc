@@ -123,6 +123,9 @@ set wildmenu
 set wildmode=list:longest,full
 set wildignore=*.o,*.d,*~
 
+" Keybinding to toggle the undo tree
+noremap <F5> :GundoToggle<CR>
+
 " Because gnome-terminal is too stupid to set TERM=xterm-256color
 if $COLORTERM == 'gnome-terminal'
   set t_Co=256
