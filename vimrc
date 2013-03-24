@@ -119,11 +119,8 @@ endfunc
 
 nnoremap <silent> <C-n> :call NumberToggle()<cr>
 
-" TODO: Look at wildmenu again.
-" set wildmenu
-" set wildmode=full (mine)
-" set wildmode=list:longest (curtis')
-" set wildignore=*.o,*.d,*~
+set wildmode=list:longest,full
+set wildignore=*.o,*.d,*~
 
 " Because gnome-terminal is too stupid to set TERM=xterm-256color
 if $COLORTERM == 'gnome-terminal'
