@@ -26,6 +26,7 @@ set showcmd
 set incsearch
 set ignorecase
 set smartcase
+set gdefault
 set autoindent
 set smartindent
 set number
@@ -37,6 +38,8 @@ set hlsearch
 set textwidth=78
 set formatoptions+=cqtrol
 set shiftround
+set hidden
+set laststatus=2
 
 syntax on
 filetype plugin indent on
@@ -116,6 +119,7 @@ endfunc
 
 nnoremap <silent> <C-n> :call NumberToggle()<cr>
 
+set wildmenu
 set wildmode=list:longest,full
 set wildignore=*.o,*.d,*~
 
