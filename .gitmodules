@@ -73,3 +73,6 @@
 [submodule "bundle/itchy"]
 	path = bundle/itchy
 	url = https://github.com/programble/itchy.vim
+[submodule "bundle/gundo"]
+	path = bundle/gundo
+	url = http://github.com/sjl/gundo.vim.git
