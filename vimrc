@@ -70,14 +70,14 @@ autocmd FileType c,cpp,clay,d,java,ooc,rust setlocal sw=4 ts=4
 autocmd FileType asm setlocal sw=8 ts=8 nosmartindent
 
 " Filetypes
-au BufRead,BufNewFile *.clay set filetype=clay
-au BufRead,BufNewFile *.ijs,*.ijt,*.ijp,*.ijx set filetype=j
-au BufRead,BufNewFile *.ll set filetype=llvm
-au BufRead,BufNewFile *.fth set filetype=forth
-au BufRead,BufNewFile *.apr set filetype=clojure
+autocmd BufRead,BufNewFile *.clay set filetype=clay
+autocmd BufRead,BufNewFile *.ijs,*.ijt,*.ijp,*.ijx set filetype=j
+autocmd BufRead,BufNewFile *.ll set filetype=llvm
+autocmd BufRead,BufNewFile *.fth set filetype=forth
+autocmd BufRead,BufNewFile *.apr set filetype=clojure
 
 " Enter insert mode automatically for `git commit`
-au FileType gitcommit startinsert
+autocmd FileType gitcommit startinsert
 
 " Smarter %
 runtime macros/matchit.vim
@@ -109,7 +109,7 @@ nmap Y y$
 
 " Toggle relative/absolute numbers
 function! NumberToggle()
-  if(&relativenumber == 1)
+  if &relativenumber == 1
     set number
   else
     set relativenumber
