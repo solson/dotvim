@@ -77,9 +77,6 @@ autocmd BufRead,BufNewFile *.fth set filetype=forth
 autocmd BufRead,BufNewFile *.apr set filetype=clojure
 autocmd BufRead,BufNewFile *.apr call PareditInitBuffer()
 
-" Enter insert mode automatically for `git commit`
-autocmd FileType gitcommit startinsert
-
 " Smarter %
 runtime macros/matchit.vim
 
