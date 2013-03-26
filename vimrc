@@ -2,7 +2,7 @@
 set nocompatible
 
 " Load the sekrit stuff (API tokens, passwords, what have you)
-if filereadable('~/.vim/secrets.vim')
+if filereadable(expand('~/.vim/secrets.vim'))
   source ~/.vim/secrets.vim
 endif
 
