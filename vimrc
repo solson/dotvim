@@ -35,6 +35,9 @@ set formatoptions+=cqtrol
 set shiftround
 set hidden
 set laststatus=2
+set wildmenu
+set wildmode=list:longest,full
+set wildignore=*.o,*.d,*~
 
 syntax on
 filetype plugin indent on
@@ -98,25 +101,10 @@ nmap <leader>d "+d
 nmap <leader>D "+D
 
 " Use Q for formatting, not Ex mode
-map Q gq
+noremap Q gq
 
 " Make Y an alias for y$ instead of yy
-nmap Y y$
-
-" Toggle relative/absolute numbers
-function! NumberToggle()
-  if &relativenumber == 1
-    set number
-  else
-    set relativenumber
-  endif
-endfunc
-
-nnoremap <silent> <C-n> :call NumberToggle()<cr>
-
-set wildmenu
-set wildmode=list:longest,full
-set wildignore=*.o,*.d,*~
+nnoremap Y y$
 
 " Keybinding to toggle the undo tree
 noremap <F5> :GundoToggle<CR>
