@@ -121,3 +121,10 @@ endif
 if &t_Co == 256
   colorscheme Tomorrow-Night
 endif
+
+" Quickly edit and source this file
+nnoremap <leader>ev :split $MYVIMRC<cr>
+nnoremap <leader>sv :source $MYVIMRC<cr>
+
+" Set the dictionary for ctrl-x ctrl-k word completion.
+set dictionary=/usr/share/dict/words
