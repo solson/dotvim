@@ -78,6 +78,9 @@ autocmd BufRead,BufNewFile *.fth set filetype=forth
 autocmd BufRead,BufNewFile *.apr set filetype=clojure
 autocmd BufRead,BufNewFile *.apr call PareditInitBuffer()
 
+" Custom indentation rules for Racket
+set lispwords+=struct
+
 " Smarter %
 runtime macros/matchit.vim
 
