@@ -37,7 +37,7 @@ set hidden
 set laststatus=2
 set wildmenu
 set wildmode=list:longest,full
-set wildignore=*.o,*.d,*~
+set wildignore=*.o,*~
 
 syntax on
 filetype plugin indent on
