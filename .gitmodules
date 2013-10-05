@@ -85,3 +85,6 @@
 [submodule "bundle/vim-repeat"]
 	path = bundle/vim-repeat
 	url = https://github.com/tpope/vim-repeat.git
+[submodule "bundle/idris-vim"]
+	path = bundle/idris-vim
+	url = https://github.com/jhenahan/idris-vim.git
