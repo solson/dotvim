@@ -128,3 +128,13 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 
 " Set the dictionary for ctrl-x ctrl-k word completion.
 set dictionary=/usr/share/dict/words
+
+" Make grep always display file name, even for a single file, so as not to
+" confuse latex-suite. Only difference from vim default is -H.
+set grepprg=grep\ -nH\ $*
+
+" Use latex-suite for .tex files.
+let g:tex_flavor='latex'
+
+" Use xelatex to compile latex documents.
+let g:Tex_CompileRule_pdf = 'xelatex -interaction=nonstopmode $*'

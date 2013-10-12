@@ -88,3 +88,6 @@
 [submodule "bundle/idris-vim"]
 	path = bundle/idris-vim
 	url = https://github.com/jhenahan/idris-vim.git
+[submodule "bundle/vim-latex-suite"]
+	path = bundle/vim-latex-suite
+	url = https://github.com/gerw/vim-latex-suite.git
