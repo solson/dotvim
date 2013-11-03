@@ -91,3 +91,6 @@
 [submodule "bundle/vim-latex-suite"]
 	path = bundle/vim-latex-suite
 	url = https://github.com/gerw/vim-latex-suite.git
+[submodule "bundle/jellybeans"]
+	path = bundle/jellybeans
+	url = https://github.com/programble/jellybeans.vim.git

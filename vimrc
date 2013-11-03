@@ -119,7 +119,7 @@ endif
 
 " Use a nice colorscheme if 256 colors are available
 if &t_Co == 256
-  colorscheme Tomorrow-Night
+  colorscheme jellybeans
 endif
 
 " Quickly edit and source this file
