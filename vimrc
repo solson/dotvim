@@ -47,8 +47,6 @@ set expandtab
 set shiftwidth=2
 set tabstop=2
 
-" Don't indent the bodies of namespaces in C++
-set cinoptions+=N-s
 " Don't indent case statements farther than the switch.
 set cinoptions+=:0
 " Don't indent scope declarations (public, private, protected).
