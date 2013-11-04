@@ -137,3 +137,8 @@ let g:tex_flavor='latex'
 
 " Use xelatex to compile latex documents.
 let g:Tex_CompileRule_pdf = 'xelatex -interaction=nonstopmode $*'
+
+" Airline config
+let g:airline_left_sep = ''
+let g:airline_right_sep = ''
+set noshowmode
