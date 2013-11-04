@@ -1,5 +1,5 @@
 set guifont=DejaVu\ Sans\ Mono\ 9
-colorscheme Tomorrow-Night
+colorscheme jellybeans
 
 " Disable tearoff menu items, toolbar, menus, scrollbars
 set guioptions-=m
