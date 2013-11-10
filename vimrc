@@ -142,3 +142,9 @@ let g:Tex_CompileRule_pdf = 'xelatex -interaction=nonstopmode $*'
 let g:airline_left_sep = ''
 let g:airline_right_sep = ''
 set noshowmode
+
+" CtrlP shortcuts
+nmap <leader>b :CtrlPBuffer<CR>
+nmap <leader>e :CtrlP<CR>
+nmap <leader>t :CtrlPBufTag<CR>
+nmap <leader>l :CtrlPLine<CR>
