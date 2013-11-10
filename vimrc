@@ -111,8 +111,8 @@ nnoremap Y y$
 " Keybinding to toggle the undo tree
 noremap <F5> :GundoToggle<CR>
 
-" Because gnome-terminal is too stupid to set TERM=xterm-256color
-if $COLORTERM == 'gnome-terminal'
+" Because vim is too stupid to figure out these support 256 colors
+if $COLORTERM == 'gnome-terminal' || $COLORTERM == 'xfce4-terminal'
   set t_Co=256
 endif
 
