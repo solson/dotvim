@@ -29,6 +29,7 @@ set hlsearch
 set textwidth=78
 set formatoptions+=cqtrol
 set shiftround
+set nojoinspaces
 set hidden
 set laststatus=2
 set wildmenu
