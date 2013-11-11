@@ -65,6 +65,11 @@ set guifont=DejaVu\ Sans\ Mono\ 9
 set guioptions-=mrLtT " Disable menus, toolbar, scrollbars
 set browsedir=buffer " GUI open starts in dir of buffer's file
 
+if has("gui_running")
+  set columns=85
+  set lines=45
+endif
+
 " Indentation exceptions
 autocmd FileType c,cpp,cs,clay,d,java,ooc,rust setlocal sw=4 ts=4
 autocmd FileType haskell setlocal sw=2 ts=2 et
@@ -156,6 +161,6 @@ if $COLORTERM == 'gnome-terminal' || $COLORTERM == 'xfce4-terminal'
 endif
 
 " Use a nice colorscheme if 256 colors are available
-if &t_Co == 256
+if &t_Co == 256 || has("gui_running")
   colorscheme jellybeans
 endif
