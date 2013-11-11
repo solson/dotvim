@@ -121,6 +121,8 @@ Plug 'scrooloose/syntastic'
 let g:syntastic_check_on_open=1
 let g:syntastic_enable_signs=0
 let g:syntastic_ruby_mri_exe='/usr/bin/ruby'
+nnoremap ]l :lnext<CR>
+nnoremap [l :lprevious<CR>
 
 Plug 'mhinz/vim-signify'
 let g:signify_vcs_list = ['git', 'svn']
