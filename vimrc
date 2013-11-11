@@ -150,6 +150,10 @@ let g:Tex_CompileRule_pdf = 'xelatex -interaction=nonstopmode $*'
 " confuse latex-suite. Only difference from vim default is -H
 set grepprg=grep\ -nH\ $*
 
+Plug 'bitc/vim-hdevtools'
+nnoremap <silent> <F1> :HdevtoolsType<CR>
+nnoremap <silent> <F2> :HdevtoolsClear<CR>
+
 Plug 'idris-hackers/idris-vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'programble/jellybeans.vim'
