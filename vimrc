@@ -144,6 +144,7 @@ let g:Tex_CompileRule_pdf = 'xelatex -interaction=nonstopmode $*'
 set grepprg=grep\ -nH\ $*
 
 Plug 'idris-hackers/idris-vim'
+Plug 'jiangmiao/auto-pairs'
 Plug 'programble/jellybeans.vim'
 Plug 'Raynes/refheap.vim'
 Plug 'sickill/vim-pasta'
