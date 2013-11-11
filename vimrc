@@ -117,6 +117,13 @@ let g:airline#extensions#hunks#non_zero_only = 1
 let g:airline#extensions#ctrlp#show_adjacent_modes = 0
 let g:airline#extensions#whitespace#enabled = 0
 
+Plug 'scrooloose/syntastic'
+let g:syntastic_check_on_open=1
+let g:syntastic_enable_signs=0
+let g:syntastic_auto_loc_list=2
+let g:syntastic_enable_highlighting=1
+let g:syntastic_ruby_mri_exe='/usr/bin/ruby'
+
 Plug 'mhinz/vim-signify'
 let g:signify_vcs_list = ['git', 'svn']
 let g:signify_sign_overwrite = 1
