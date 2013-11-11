@@ -51,6 +51,9 @@ if exists('g:loaded_plug')
 endif
 let g:loaded_plug = 1
 
+let s:cpo_save = &cpo
+set cpo&vim
+
 let s:plug_source = 'https://raw.github.com/junegunn/vim-plug/master/plug.vim'
 let s:plug_file = 'Plugfile'
 let s:plug_win = 0
@@ -93,7 +96,6 @@ function! plug#end()
     let keys = keys(s:extend(keys))
   endwhile
 
-  set nocompatible
   filetype off
   for plug in values(g:plugs)
     let rtp = s:rtp(plug)
@@ -633,4 +635,7 @@ function! s:status()
   endfor
   call setline(1, 'Finished. '.errs.' error(s).')
 endfunction
+
+let &cpo = s:cpo_save
+unlet s:cpo_save
 
