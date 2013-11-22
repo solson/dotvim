@@ -176,6 +176,7 @@ Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-markdown'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
+Plug 'travitch/hasksyn'
 
 call plug#end()
 
