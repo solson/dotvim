@@ -49,12 +49,14 @@ set cinoptions+=:0
 " Don't indent scope declarations (public, private, protected)
 set cinoptions+=g0
 
-" Visible trailing whitespace
-set list
-set listchars=tab:\ \ ,trail:·
-" Hide trailing whitespace in insert mode
-autocmd InsertEnter * setlocal nolist
-autocmd InsertLeave * setlocal list
+if &encoding == 'utf-8'
+  " Visible trailing whitespace
+  set list
+  set listchars=tab:\ \ ,trail:·
+  " Hide trailing whitespace in insert mode
+  autocmd InsertEnter * setlocal nolist
+  autocmd InsertLeave * setlocal list
+endif
 
 " Enable mouse in terminals
 if has('mouse')
