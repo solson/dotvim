@@ -154,6 +154,7 @@ set grepprg=grep\ -nH\ $*
 Plug 'bitc/vim-hdevtools'
 au FileType haskell nnoremap <buffer> <silent> <F1> :HdevtoolsType<CR>
 au FileType haskell nnoremap <buffer> <silent> <F2> :HdevtoolsClear<CR>
+au FileType haskell nnoremap <buffer> <silent> <F3> :HdevtoolsInfo<CR>
 
 Plug 'idris-hackers/idris-vim'
 Plug 'jiangmiao/auto-pairs'
