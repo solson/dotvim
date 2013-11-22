@@ -99,6 +99,12 @@ noremap Q gq
 " Make Y an alias for y$ instead of yy
 nnoremap Y y$
 
+" Quickly navigate between window splits
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
 " Quickly edit and source this file
 nnoremap <leader>ve :split $MYVIMRC<cr>
 nnoremap <leader>vs :source $MYVIMRC<cr>
