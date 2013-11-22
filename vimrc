@@ -133,7 +133,7 @@ let g:signify_sign_change = '~'
 Plug 'kien/ctrlp.vim'
 nmap <leader>b :CtrlPBuffer<CR>
 nmap <leader>e :CtrlP<CR>
-nmap <leader>t :CtrlPBufTag<CR>
+nmap <leader>t :CtrlPTag<CR>
 nmap <leader>l :CtrlPLine<CR>
 
 Plug 'junegunn/vim-easy-align'
