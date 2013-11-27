@@ -95,6 +95,11 @@ nmap <leader>Y "+Y
 nmap <leader>d "+d
 nmap <leader>D "+D
 
+" Swap ' and ` motions. Usually ' is line-based and ` is character-based but I
+" prefer the other way around.
+nnoremap ' `
+nnoremap ` '
+
 " Use Q for formatting, not Ex mode
 noremap Q gq
 
