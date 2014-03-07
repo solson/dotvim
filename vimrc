@@ -165,7 +165,9 @@ nmap <leader>gp :Git push<CR>
 
 Plug 'gerw/vim-latex-suite'
 let g:tex_flavor='latex' " Use latex-suite for .tex files.
-let g:Tex_CompileRule_pdf = 'xelatex -interaction=nonstopmode $*'
+let g:Tex_DefaultTargetFormat = 'pdf'
+let g:Tex_MultipleCompileFormats = 'pdf, aux'
+let g:Tex_CompileRule_pdf = 'pdflatex -interaction=nonstopmode $*'
 " Make grep always display file name, even for a single file, so as not to
 " confuse latex-suite. Only difference from vim default is -H
 set grepprg=grep\ -nH\ $*
