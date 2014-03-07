@@ -177,6 +177,18 @@ au FileType haskell nnoremap <buffer> <silent> <F1> :HdevtoolsType<CR>
 au FileType haskell nnoremap <buffer> <silent> <F2> :HdevtoolsClear<CR>
 au FileType haskell nnoremap <buffer> <silent> <F3> :HdevtoolsInfo<CR>
 
+" Custom text objects library plugin
+Plug 'kana/vim-textobj-user'
+"
+" `ai/ii/aI/iI` for a block of indented lines
+Plug 'kana/vim-textobj-indent'
+
+" `ac/ic` for a comment
+Plug 'glts/vim-textobj-comment'
+
+" `a,/i,` for a function parameter
+Plug 'sgur/vim-textobj-parameter'
+
 Plug 'idris-hackers/idris-vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'programble/jellybeans.vim'
