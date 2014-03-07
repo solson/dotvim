@@ -81,6 +81,9 @@ autocmd FileType haskell setlocal sw=2 ts=2 et
 autocmd FileType go setlocal sw=4 ts=4 noet
 autocmd FileType asm setlocal sw=8 ts=8 nosmartindent
 
+" Disable annoying as-you-type trailing whitespace highlighting
+let go_highlight_trailing_whitespace_error = 0
+
 " Filetypes
 autocmd BufRead,BufNewFile *.apr set filetype=clojure
 
