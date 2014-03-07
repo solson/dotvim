@@ -188,6 +188,7 @@ Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-markdown'
 Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-sleuth'
 Plug 'tpope/vim-surround'
 Plug 'travitch/hasksyn'
 
