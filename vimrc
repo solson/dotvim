@@ -78,6 +78,7 @@ endif
 " Indentation exceptions
 autocmd FileType c,cpp,cs,clay,d,java,ooc,rust setlocal sw=4 ts=4
 autocmd FileType haskell setlocal sw=2 ts=2 et
+autocmd FileType go setlocal sw=4 ts=4 noet
 autocmd FileType asm setlocal sw=8 ts=8 nosmartindent
 
 " Filetypes
