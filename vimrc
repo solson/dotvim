@@ -48,6 +48,8 @@ set tabstop=2
 set cinoptions+=:0
 " Don't indent scope declarations (public, private, protected)
 set cinoptions+=g0
+" Don't indent the body of a namespace in C++
+set cinoptions+=N-s
 
 if &encoding == 'utf-8'
   " Visible trailing whitespace
