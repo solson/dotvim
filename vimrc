@@ -39,17 +39,13 @@ set wildignore=*.o,*~
 syntax on
 filetype plugin indent on
 
-" Default to 4-space indents, 4-character tabs
+" Default to 2-space indents, 2-character tabs
 set expandtab
 set shiftwidth=2
 set tabstop=2
 
-" Don't indent case statements farther than the switch
-set cinoptions+=:0
-" Don't indent scope declarations (public, private, protected)
-set cinoptions+=g0
-" Don't indent the body of a namespace in C++
-set cinoptions+=N-s
+" Use Google C++ style
+set cinoptions=h1,l1,g1,t0,i4,+4,(0,w1,W4,N-s
 
 if &encoding == 'utf-8'
   " Visible trailing whitespace
@@ -76,9 +72,7 @@ if has("gui_running")
 endif
 
 " Indentation exceptions
-autocmd FileType c,cpp,cs,clay,d,java,ooc,rust setlocal sw=4 ts=4
-autocmd FileType haskell setlocal sw=2 ts=2 et
-autocmd FileType go setlocal sw=4 ts=4 noet
+autocmd FileType go setlocal noet
 autocmd FileType asm setlocal sw=8 ts=8 nosmartindent
 
 " Disable annoying as-you-type trailing whitespace highlighting
