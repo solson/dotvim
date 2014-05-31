@@ -152,13 +152,10 @@ au FileType haskell nnoremap <buffer> <silent> <F3> :HdevtoolsInfo<CR>
 
 " Custom text objects library plugin
 Plug 'kana/vim-textobj-user'
-"
 " `ai/ii/aI/iI` for a block of indented lines
 Plug 'kana/vim-textobj-indent'
-
 " `ac/ic` for a comment
 Plug 'glts/vim-textobj-comment'
-
 " `a,/i,` for a function parameter
 Plug 'sgur/vim-textobj-parameter'
 
