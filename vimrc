@@ -159,6 +159,15 @@ Plug 'glts/vim-textobj-comment'
 " `a,/i,` for a function parameter
 Plug 'sgur/vim-textobj-parameter'
 
+Plug 'Valloric/YouCompleteMe'
+let g:ycm_add_preview_to_completeopt = 1
+let g:ycm_autoclose_preview_window_after_insertion = 1
+let g:ycm_extra_conf_globlist = ["~/code/*"]
+let g:ycm_min_num_of_chars_for_completion = 99
+nnoremap <silent> <leader>f :YcmCompleter GoTo<CR>
+" Close preview window when leaving insert mode
+autocmd InsertLeave * if pumvisible() == 0|pclose|endif
+
 Plug 'idris-hackers/idris-vim'
 Plug 'programble/jellybeans.vim'
 Plug 'Raynes/refheap.vim'
