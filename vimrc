@@ -75,6 +75,7 @@ let go_highlight_trailing_whitespace_error = 0
 
 " Filetypes
 autocmd BufRead,BufNewFile *.apr set filetype=clojure
+autocmd BufRead,BufNewFile SConstruct,SConscript set filetype=python
 
 " Smarter %
 runtime macros/matchit.vim
