@@ -127,16 +127,8 @@ let g:airline#extensions#hunks#non_zero_only = 1
 let g:airline#extensions#ctrlp#show_adjacent_modes = 0
 let g:airline#extensions#whitespace#enabled = 0
 
-Plug 'scrooloose/syntastic'
-let g:syntastic_check_on_open = 1
-let g:syntastic_enable_signs = 0
-let g:syntastic_ruby_mri_exe = '/usr/bin/ruby'
-nnoremap ]l :lnext<CR>
-nnoremap [l :lprevious<CR>
-
 Plug 'mhinz/vim-signify'
 let g:signify_vcs_list = ['git', 'svn']
-let g:signify_sign_overwrite = 1
 let g:signify_sign_change = '~'
 
 Plug 'kien/ctrlp.vim'
@@ -183,6 +175,7 @@ Plug 'idris-hackers/idris-vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'programble/jellybeans.vim'
 Plug 'Raynes/refheap.vim'
+Plug 'scrooloose/syntastic'
 Plug 'sickill/vim-pasta'
 Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-commentary'
