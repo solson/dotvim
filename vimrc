@@ -83,18 +83,9 @@ runtime macros/matchit.vim
 " Clear search highlights
 nmap <silent> <leader>n :silent :nohlsearch<CR>
 
-" Paste, yank, and delete with X11 CLIPBOARD instead of PRIMARY
-nmap <leader>p "+p
-nmap <leader>P "+P
-nmap <leader>y "+y
-nmap <leader>Y "+Y
-nmap <leader>d "+d
-nmap <leader>D "+D
-
-" Swap ' and ` motions. Usually ' is line-based and ` is character-based but I
-" prefer the other way around.
-nnoremap ' `
-nnoremap ` '
+" Paste from X11 clipboard
+nnoremap <leader>p "+p
+nnoremap <leader>P "+P
 
 " Use Q for formatting, not Ex mode
 noremap Q gq
