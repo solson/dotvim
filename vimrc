@@ -160,7 +160,6 @@ Plug 'glts/vim-textobj-comment'
 Plug 'sgur/vim-textobj-parameter'
 
 Plug 'idris-hackers/idris-vim'
-Plug 'jiangmiao/auto-pairs'
 Plug 'programble/jellybeans.vim'
 Plug 'Raynes/refheap.vim'
 Plug 'scrooloose/syntastic'
