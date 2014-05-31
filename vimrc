@@ -66,11 +66,6 @@ set guifont=DejaVu\ Sans\ Mono\ 9
 set guioptions-=mrLtT " Disable menus, toolbar, scrollbars
 set browsedir=buffer " GUI open starts in dir of buffer's file
 
-if has("gui_running")
-  set columns=85
-  set lines=45
-endif
-
 " Indentation exceptions
 autocmd FileType go setlocal noet
 autocmd FileType asm setlocal sw=8 ts=8 nosmartindent
