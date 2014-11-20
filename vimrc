@@ -105,11 +105,13 @@ set dictionary=/usr/share/dict/words
 call plug#begin('~/.vim/plugged')
 
 Plug 'bling/vim-airline'
+Plug 'asenac/vim-airline-loclist'
 set noshowmode
 let g:airline_left_sep = ''
 let g:airline_right_sep = ''
-let g:airline#extensions#hunks#non_zero_only = 1
 let g:airline#extensions#ctrlp#show_adjacent_modes = 0
+let g:airline#extensions#hunks#non_zero_only = 1
+let g:airline#extensions#loclist#enabled = 1
 let g:airline#extensions#whitespace#enabled = 0
 
 Plug 'mhinz/vim-signify'
@@ -152,6 +154,14 @@ Plug 'kana/vim-textobj-indent'
 Plug 'glts/vim-textobj-comment'
 " `a,/i,` for a function parameter
 Plug 'sgur/vim-textobj-parameter'
+
+" Snippets engine
+Plug 'SirVer/ultisnips'
+let g:UltiSnipsEditSplit="horizontal"
+let g:UltiSnipsExpandTrigger = "<c-j>"
+let g:UltiSnipsJumpForwardTrigger = "<c-j>"
+let g:UltiSnipsJumpBackwardTrigger = "<c-k>"
+nnoremap <leader>u :UltiSnipsEdit<CR>
 
 Plug 'Valloric/YouCompleteMe'
 let g:ycm_add_preview_to_completeopt = 1
