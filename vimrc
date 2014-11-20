@@ -179,7 +179,7 @@ let g:delimitMate_expand_cr = 1
 let g:delimitMate_expand_space = 1
 
 Plug 'tpope/vim-commentary'
-autocmd FileType cpp set commentstring=//\ %s
+autocmd FileType c,cpp set commentstring=//\ %s
 
 Plug 'idris-hackers/idris-vim'
 Plug 'programble/jellybeans.vim'
