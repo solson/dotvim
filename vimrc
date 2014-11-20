@@ -181,6 +181,7 @@ let g:delimitMate_expand_space = 1
 Plug 'tpope/vim-commentary'
 autocmd FileType c,cpp set commentstring=//\ %s
 
+Plug 'elixir-lang/vim-elixir'
 Plug 'idris-hackers/idris-vim'
 Plug 'programble/jellybeans.vim'
 Plug 'Raynes/refheap.vim'
