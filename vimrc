@@ -26,7 +26,8 @@ set shortmess=atI
 set visualbell t_vb=
 set smarttab
 set hlsearch
-set textwidth=78
+set textwidth=80
+set colorcolumn=+1
 set formatoptions+=cqtrol
 set shiftround
 set nojoinspaces
