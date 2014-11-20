@@ -165,9 +165,11 @@ nnoremap <leader>u :UltiSnipsEdit<CR>
 
 Plug 'Valloric/YouCompleteMe'
 let g:ycm_add_preview_to_completeopt = 1
+let g:ycm_always_populate_location_list = 1
 let g:ycm_autoclose_preview_window_after_insertion = 1
+let g:ycm_enable_diagnostic_signs = 0
 let g:ycm_extra_conf_globlist = ["~/code/*"]
-let g:ycm_min_num_of_chars_for_completion = 99
+" let g:ycm_min_num_of_chars_for_completion = 99
 nnoremap <silent> <leader>f :YcmCompleter GoTo<CR>
 " Close preview window when leaving insert mode
 autocmd InsertLeave * if pumvisible() == 0|pclose|endif
