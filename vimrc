@@ -33,8 +33,7 @@ set shiftround
 set nojoinspaces
 set hidden
 set laststatus=2
-set wildmenu
-set wildmode=list:longest,full
+set wildmode=longest,list:longest
 set wildignore=*.o,*~
 
 syntax on
