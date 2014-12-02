@@ -14,8 +14,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'bling/vim-airline'
 Plug 'asenac/vim-airline-loclist'
 set noshowmode
-let g:airline_left_sep = ''
-let g:airline_right_sep = ''
+let g:airline_powerline_fonts = 1
 let g:airline#extensions#ctrlp#show_adjacent_modes = 0
 let g:airline#extensions#hunks#non_zero_only = 1
 let g:airline#extensions#loclist#enabled = 1
@@ -161,7 +160,7 @@ if has('mouse')
 endif
 
 " GUI options
-set guifont=DejaVu\ Sans\ Mono\ 9
+set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 9
 set guioptions-=mrLtT " Disable menus, toolbar, scrollbars
 set browsedir=buffer " GUI open starts in dir of buffer's file
 
