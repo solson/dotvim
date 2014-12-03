@@ -124,7 +124,6 @@ set smartindent
 set number
 set title
 set shortmess=atI
-set visualbell t_vb=
 set smarttab
 set hlsearch
 set textwidth=80
@@ -136,6 +135,10 @@ set hidden
 set laststatus=2
 set wildmode=longest,list:longest
 set wildignore=*.o,*~
+
+" Visuall bell must be disabled after the GUI starts.
+set visualbell t_vb=
+autocmd GUIEnter * set visualbell t_vb=
 
 " Default to 2-space indents, 2-character tabs
 set expandtab
