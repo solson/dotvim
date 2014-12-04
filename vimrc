@@ -102,6 +102,7 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-sleuth'
 Plug 'tpope/vim-surround'
 Plug 'travitch/hasksyn'
+Plug 'wting/rust.vim'
 
 call plug#end()
 filetype plugin indent on
