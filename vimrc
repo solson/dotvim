@@ -87,11 +87,14 @@ let g:delimitMate_expand_space = 1
 Plug 'tpope/vim-commentary'
 autocmd FileType c,cpp set commentstring=//\ %s
 
+Plug 'scrooloose/syntastic'
+let g:syntastic_rust_rustc_args = '--no-trans'
+
+Plug 'cespare/vim-toml'
 Plug 'elixir-lang/vim-elixir'
 Plug 'idris-hackers/idris-vim'
 Plug 'programble/jellybeans.vim'
 Plug 'Raynes/refheap.vim'
-Plug 'scrooloose/syntastic'
 Plug 'sickill/vim-pasta'
 Plug 'tommcdo/vim-exchange'
 Plug 'tpope/vim-abolish'
