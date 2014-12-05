@@ -115,31 +115,31 @@ set backup
 set backupdir=~/.vim/backup
 
 " General
-set backspace=indent,eol,start
-set history=50
-set ruler
-set showcmd
-set incsearch
-set ignorecase
-set smartcase
-set gdefault
 set autoindent
-set smartindent
-set number
-set title
-set shortmess=atI
-set smarttab
-set hlsearch
-set textwidth=80
+set backspace=indent,eol,start
 set colorcolumn=+1
-set formatoptions+=cqtrol
-set shiftround
-set nojoinspaces
-set hidden
-set laststatus=2
-set wildmode=longest,list:longest
-set wildignore=*.o,*~
 set display+=lastline
+set formatoptions+=cqtrol
+set gdefault
+set hidden
+set history=50
+set hlsearch
+set ignorecase
+set incsearch
+set laststatus=2
+set nojoinspaces
+set number
+set ruler
+set shiftround
+set shortmess=atI
+set showcmd
+set smartcase
+set smartindent
+set smarttab
+set textwidth=80
+set title
+set wildignore=*.o,*~
+set wildmode=longest,list:longest
 
 " Visuall bell must be disabled after the GUI starts.
 set visualbell t_vb=
