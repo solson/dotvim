@@ -139,6 +139,7 @@ set hidden
 set laststatus=2
 set wildmode=longest,list:longest
 set wildignore=*.o,*~
+set display+=lastline
 
 " Visuall bell must be disabled after the GUI starts.
 set visualbell t_vb=
