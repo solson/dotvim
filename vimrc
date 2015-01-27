@@ -88,6 +88,7 @@ Plug 'scrooloose/syntastic'
 let g:syntastic_rust_rustc_args = '--no-trans'
 
 Plug 'cespare/vim-toml'
+Plug 'gcmt/wildfire.vim'
 Plug 'elixir-lang/vim-elixir'
 Plug 'idris-hackers/idris-vim'
 Plug 'programble/jellybeans.vim'
