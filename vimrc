@@ -80,10 +80,6 @@ nnoremap <silent> <leader>f :YcmCompleter GoTo<CR>
 " Close preview window when leaving insert mode
 autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 
-Plug 'Raimondi/delimitMate'
-let g:delimitMate_expand_cr = 1
-let g:delimitMate_expand_space = 1
-
 Plug 'tpope/vim-commentary'
 autocmd FileType c,cpp set commentstring=//\ %s
 
