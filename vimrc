@@ -82,6 +82,7 @@ autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 
 Plug 'tpope/vim-commentary'
 autocmd FileType c,cpp set commentstring=//\ %s
+autocmd FileType idris set commentstring=--\ %s
 
 Plug 'scrooloose/syntastic'
 let g:syntastic_rust_rustc_args = '--no-trans'
