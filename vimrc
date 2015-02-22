@@ -166,7 +166,7 @@ if has('mouse')
 endif
 
 " GUI options
-set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 9
+set guifont=Source\ Code\ Pro\ for\ Powerline\ 10
 set guioptions-=mrLtT " Disable menus, toolbar, scrollbars
 set browsedir=buffer " GUI open starts in dir of buffer's file
 
