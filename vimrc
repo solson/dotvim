@@ -104,7 +104,7 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-sleuth'
 Plug 'tpope/vim-surround'
 Plug 'travitch/hasksyn'
-Plug 'wting/rust.vim'
+Plug 'richo/rust.vim', { 'branch': 'playpen-support' }
 
 call plug#end()
 filetype plugin indent on
